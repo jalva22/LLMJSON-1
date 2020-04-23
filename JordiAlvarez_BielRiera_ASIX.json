@@ -40,7 +40,7 @@
                         "habitacioServeis":{ "tv":true, "wifi":true,"caixaForta":true, "vestidor":true},                                                                        
                          "preus": [{
                                         "id":1,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 1,
                                         "preuNet": 100,
                                         "comissioWeb":5,
@@ -49,7 +49,7 @@
                                 },
                                 {
                                         "id":2,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 2,
                                         "preuNet": 105,
                                         "comissioWeb":5,
@@ -58,7 +58,7 @@
                                 },
                                 {
                                         "id":3,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 3,
                                         "preuNet": 110,
                                         "comissioWeb":5,
@@ -67,7 +67,7 @@
                                 },
                                 {
                                         "id":4,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 1,
                                         "preuNet": 90,
                                         "comissioWeb":5,
@@ -76,7 +76,7 @@
                                 },
                                 {
                                         "id":5,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 2,
                                         "preuNet": 95,
                                         "comissioWeb":5,
@@ -85,7 +85,7 @@
                                 },
                                 {
                                         "id":6,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 3,
                                         "preuNet": 100,
                                         "comissioWeb":5,
@@ -103,7 +103,7 @@
                         "habitacioServeis":{ "tv":true, "wifi":true,"caixaForta":true, "vestidor":false},
                          "preus": [{
                                         "id":1,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 1,
                                         "preuNet": 70,
                                         "comissioWeb":5,
@@ -112,7 +112,7 @@
                                 },
                                 {
                                         "id":2,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 2,
                                         "preuNet": 72,
                                         "comissioWeb":5,
@@ -121,7 +121,7 @@
                                 },
                                 {
                                         "id":3,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 3,
                                         "preuNet": 74,
                                         "comissioWeb":5,
@@ -130,7 +130,7 @@
                                 },
                                 {
                                         "id":4,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 1,
                                         "preuNet": 60,
                                         "comissioWeb":5,
@@ -139,7 +139,7 @@
                                 },
                                 {
                                         "id":5,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 2,
                                         "preuNet": 62,
                                         "comissioWeb":5,
@@ -148,7 +148,7 @@
                                 },
                                 {
                                         "id":6,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 3,
                                         "preuNet": 64,
                                         "comissioWeb":5,
@@ -175,7 +175,7 @@
                                 },
                                 {
                                         "id":2,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 2,
                                         "preuNet": 15,
                                         "comissioWeb":5,
@@ -184,7 +184,7 @@
                                 },
                                 {
                                         "id":3,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 3,
                                         "preuNet": 20,
                                         "comissioWeb":5,
@@ -193,7 +193,7 @@
                                 },
                                 {
                                         "id":4,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 1,
                                         "preuNet": 8,
                                         "comissioWeb":5,
@@ -202,7 +202,7 @@
                                 },
                                 {
                                         "id":5,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 2,
                                         "preuNet": 13,
                                         "comissioWeb":5,
@@ -211,7 +211,7 @@
                                 },
                                 {
                                         "id":6,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 3,
                                         "preuNet": 18,
                                         "comissioWeb":5,
@@ -455,7 +455,7 @@
                         "habitacioServeis":{ "tv":true, "wifi":true,"caixaForta":false, "vestidor":true},                                                                        
                         "preus": [{
                                         "id":1,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 1,
                                         "preuNet": 122,
                                         "comissioWeb":5,
@@ -464,7 +464,7 @@
                                 },
                                 {
                                         "id":2,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 2,
                                         "preuNet": 127,
                                         "comissioWeb":5,
@@ -473,7 +473,7 @@
                                 },
                                 {
                                         "id":3,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 3,
                                         "preuNet": 132,
                                         "comissioWeb":5,
@@ -482,7 +482,7 @@
                                 },
                                 {
                                         "id":4,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 1,
                                         "preuNet": 112,
                                         "comissioWeb":5,
@@ -491,7 +491,7 @@
                                 },
                                 {
                                         "id":5,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 2,
                                         "preuNet": 117,
                                         "comissioWeb":5,
@@ -500,7 +500,7 @@
                                 },
                                 {
                                         "id":6,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 3,
                                         "preuNet": 122,
                                         "comissioWeb":5,
@@ -519,7 +519,7 @@
                         "habitacioServeis":{ "tv":true, "wifi":true,"caixaForta":false,"vestidor":true},
                         "preus": [{
                                         "id":1,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 1,
                                         "preuNet": 85,
                                         "comissioWeb":5,
@@ -528,7 +528,7 @@
                                 },
                                 {
                                         "id":2,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 2,
                                         "preuNet": 87,
                                         "comissioWeb":5,
@@ -537,7 +537,7 @@
                                 },
                                 {
                                         "id":3,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 3,
                                         "preuNet": 89,
                                         "comissioWeb":5,
@@ -546,7 +546,7 @@
                                 },
                                 {
                                         "id":4,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 1,
                                         "preuNet": 75,
                                         "comissioWeb":5,
@@ -555,7 +555,7 @@
                                 },
                                 {
                                         "id":5,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 2,
                                         "preuNet": 77,
                                         "comissioWeb":5,
@@ -564,7 +564,7 @@
                                 },
                                 {
                                         "id":6,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 3,
                                         "preuNet": 81,
                                         "comissioWeb":5,
@@ -591,7 +591,7 @@
                                 },
                                 {
                                         "id":2,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 2,
                                         "preuNet": 18,
                                         "comissioWeb":5,
@@ -600,7 +600,7 @@
                                 },
                                 {
                                         "id":3,
-                                        "temporada":"alta",
+                                        "tempAlta":true,
                                         "idAgregador": 3,
                                         "preuNet": 21,
                                         "comissioWeb":5,
@@ -609,7 +609,7 @@
                                 },
                                 {
                                         "id":4,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 1,
                                         "preuNet": 11,
                                         "comissioWeb":5,
@@ -618,7 +618,7 @@
                                 },
                                 {
                                         "id":5,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 2,
                                         "preuNet": 16,
                                         "comissioWeb":5,
@@ -627,7 +627,7 @@
                                 },
                                 {
                                         "id":6,
-                                        "temporada":"baixa",
+                                        "tempAlta":false,
                                         "idAgregador": 3,
                                         "preuNet": 19,
                                         "comissioWeb":5,

@@ -161,7 +161,7 @@
                         "tipo": "categoriaBaixa",
                         "minibar":{"actiu":true,"preu":"50","valor":"eur"},
                         "bany":{"dutxa":true,"wc":true, "banyera":true,"secador":true,"amenities":false, "hidromassatge":false, "jacuzzi":false,"salsBany":false},
-                        "llits":{"individual":1,"dobles":0, "Lliteres":1,"sofaLlit":0},                                                                
+                        "llits":{"individual":3,"dobles":0, "Lliteres":1,"sofaLlit":0},                                                                
                         "exteriors":{"balco":false,"terrassa":false,"vistesMuntanya":false,"vistesMar":false},
                         "habitacioServeis":{ "tv":true, "wifi":true,"caixaForta":false, "vestidor":false},
                          "preus": [{

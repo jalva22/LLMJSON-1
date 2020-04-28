@@ -241,7 +241,7 @@
                         "tipo": "categoriaAlta",
                         "miniBar":{"actiu":true, "preu":300, "valor":"eur"},
                         "bany":{"dutxa":true, "wc":true, "banyera":true, "secador":true, "amenities":true, "hidromassatge":false, "jacuzzi":true, "salsBany":true}, 
-                        "llits":{"individuals": 0, "dobles":1, "lliteres":0, "sofaLlit":1},
+                        "llits":{"individuals": 3, "dobles":1, "lliteres":0, "sofaLlit":1},
                         "exteriors":{"balco":false,"terrassa":true, "vistesMuntanya":false, "vistesMar":true},
                         "habitacioServeis":{"tv": true,"wifi": true,"caixaForta":true,"vestidor":true},
                         "preus": [{
@@ -305,7 +305,7 @@
                         "tipo": "categoriaMitjana",
                         "miniBar":{"actiu":true, "preu":200, "valor":"eur"},
                         "bany":{"dutxa":true, "wc":true, "banyera":true, "secador":true, "amenities":false, "hidromassatge":false, "jacuzzi":false, "salsBany":false}, 
-                        "llits":{"individuals": 0, "dobles":1, "lliteres":1, "sofaLlit":0},
+                        "llits":{"individuals": 1, "dobles":2, "lliteres":1, "sofaLlit":0},
                         "exteriors":{"balco":true,"terrassa":false, "vistesMuntanya":true, "vistesMar":false},
                         "habitacioServeis":{"tv": true,"wifi": true,"caixaForta":true,"vestidor":false},
                         "preus": [{
@@ -369,7 +369,7 @@
                         "tipo": "categoriaBaixa",
                         "miniBar":{"actiu":true, "preu":250, "valor":"eur"},
                         "bany":{"dutxa":true, "wc":true, "banyera":true, "secador":false, "amenities":false, "hidromassatge":false, "jacuzzi":false, "salsBany":false}, 
-                        "llits":{"individuals": 1, "dobles":0, "lliteres":1, "sofaLlit":0},
+                        "llits":{"individuals": 1, "dobles":0, "lliteres":1, "sofaLlit":1},
                         "exteriors":{"balco":true,"terrassa":false, "vistesMuntanya":true, "vistesMar":false},
                         "habitacioServeis":{"tv": true,"wifi": true,"caixaForta":true,"vestidor":false},
                         "preus": [{
@@ -440,7 +440,7 @@
        "empleats":"25",
        "cadena":"RIU",
        "serveis":["climatitzacio","aiguaCalentaHotel","calefaccioHotel"],
-       "extres":[{"tenis":false},{"gimnas":true},{"piscina":true},{"spa":true}],
+       "extres":["gimnas","piscina","spa"],
        "berenar":{"actiu":true,"preu":"15","valor":"eur"},
        "fumador":"si",
        "reciclatge":"si",

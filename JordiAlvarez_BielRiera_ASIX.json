@@ -246,7 +246,7 @@
                         "habitacioServeis":{"tv": true,"wifi": true,"caixaForta":true,"vestidor":true},
                         "preus": [{
                                         "id":1,
-                                        "temporada":true,
+                                        "tempAlta":true,
                                         "idAgregador": 1,
                                         "preuNet": 200,
                                         "comissioWeb":5,

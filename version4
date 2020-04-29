@@ -1,0 +1,649 @@
+{
+	"nom":"bookingBMoll",
+	"eslogan":"Els pitjors hotels al preu mes car",
+	"correu": "bookingBMoll@cifpfbmoll.ei",
+	"creacio":2019,
+	"color corporatiu":"#F5F5DC",
+	"propietari":{
+                        "nom":"Douglas Crockford", 
+                        "naixament":"1955", 
+                        "lloc":"Minesota"
+                        },
+        "agregadors":[  
+                        {"id":1, "nom":"agregadorHotels1","telefon":"971148950","correu":"agre1@gmail.com","direccio":"c/ Sabata, 22", "comissio":5},
+                        {"id":2, "nom":"agregadorHotels2","telefon":"971558077","correu":"agre2@gmail.com","direccio":"c/ Dragonera, 30", "comissio":7},
+                        {"id":3, "nom":"agregadorHotels3","telefon":"971663002","correu":"agre3@gmail.com","direccio":"c/ Indústria, 45", "comissio":10}
+                     ],
+	"hotels":[{
+        "id":0,
+        "nom":"Hotel Playa",
+        "estrelles":"2",
+        "numeroHabitacions":"50",
+        "adresa":"C/ Guarrillas, 6",
+        "telefon":"971450809",
+        "correu":"hotelplaya@playa.com",
+        "empleats":"50",
+        "cadena":"Barcelo",
+        "serveis":["aiguaCalentaHotel"],
+        "extres":{"tenis":true,"gimnas":false,"piscina":false,"spa":false},
+        "berenar":{"actiu":true,"preu":"10","valor":"eur"},
+        "dinar":{"actiu":true,"preu":"15","valor":"eur"},
+        "sopar":{"actiu":true,"preu":"15","valor":"eur"},
+        "idioma":{"castella":true,"angles":true,"aleman":true,"rus":false},
+        "fumador":"si",
+        "reciclatge":"no",
+        "guarderia":"no",
+        "habitacions":[{
+                        "id":0,
+                        "tipo": "categoriaAlta",
+                        "minibar":{"actiu":true,"preu":"200","valor":"eur"},
+                        "bany":{"dutxa":true,"wc":true, "banyera":true,"secador":true,"amenities":true, "hidromassatge":true, "jacuzzi":true,"salsBany":true},
+                        "llits":{"individuals":1,"dobles":1, "Lliteres":0,"sofaLlits":0},                                                                
+                        "exteriors":{"balco":false,"terrassa":true,"vistesMuntanya":false,"vistesMar":true},
+                        "habitacioServeis":{ "tv":true, "wifi":true,"caixaForta":true, "vestidor":true},                                                                        
+                         "preus": [{
+                                        "id":1,
+                                        "tempAlta":true,
+                                        "idAgregador": 1,
+                                        "preuNet": 100,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 127.05
+                                },
+                                {
+                                        "id":2,
+                                        "tempAlta":true,
+                                        "idAgregador": 2,
+                                        "preuNet": 105,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal":133.10
+                                },
+                                {
+                                        "id":3,
+                                        "tempAlta":true,
+                                        "idAgregador": 3,
+                                        "preuNet": 110,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 139.15
+                                },
+                                {
+                                        "id":4,
+                                        "tempAlta":false,
+                                        "idAgregador": 1,
+                                        "preuNet": 90,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 114.95
+                                },
+                                {
+                                        "id":5,
+                                        "tempAlta":false,
+                                        "idAgregador": 2,
+                                        "preuNet": 95,
+                                        "comissioWeb":5,
+                                        "impostosPercPerc": 21,
+                                        "preuTotal": 121.00
+                                },
+                                {
+                                        "id":6,
+                                        "tempAlta":false,
+                                        "idAgregador": 3,
+                                        "preuNet": 100,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 127.05
+                                }]   
+                    },
+                    {
+                        "id":1,
+                        "tipo": "categoriaMitjana",
+                        "minibar":{"actiu":true,"preu":"100","valor":"eur"},
+                        "bany":{"dutxa":true,"wc":true, "banyera":true,"secador":true,"amenities":true, "hidromassatge":false, "jacuzzi":false,"salsBany":false},
+                        "llits":{"individuals":0,"dobles":1, "Lliteres":0,"sofaLlits":1},                                                                
+                        "exteriors":{"balco":true,"terrassa":false,"vistesMuntanya":true,"vistesMar":false},
+                        "habitacioServeis":{ "tv":true, "wifi":true,"caixaForta":true, "vestidor":false},
+                         "preus": [{
+                                        "id":1,
+                                        "tempAlta":true,
+                                        "idAgregador": 1,
+                                        "preuNet": 70,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 90.75
+                                },
+                                {
+                                        "id":2,
+                                        "tempAlta":true,
+                                        "idAgregador": 2,
+                                        "preuNet": 72,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 93.17
+                                },
+                                {
+                                        "id":3,
+                                        "tempAlta":true,
+                                        "idAgregador": 3,
+                                        "preuNet": 74,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 95.59
+                                },
+                                {
+                                        "id":4,
+                                        "tempAlta":false,
+                                        "idAgregador": 1,
+                                        "preuNet": 60,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 78.65
+                                },
+                                {
+                                        "id":5,
+                                        "tempAlta":false,
+                                        "idAgregador": 2,
+                                        "preuNet": 62,
+                                        "comissioWeb":5,
+                                        "impostosPercPerc": 21,
+                                        "preuTotal": 81.07
+                                },
+                                {
+                                        "id":6,
+                                        "tempAlta":false,
+                                        "idAgregador": 3,
+                                        "preuNet": 64,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 83.49
+                                }]   
+                    },
+                    {
+                        "id":2,
+                        "tipo": "categoriaBaixa",
+                        "minibar":{"actiu":true,"preu":"50","valor":"eur"},
+                        "bany":{"dutxa":true,"wc":true, "banyera":true,"secador":true,"amenities":false, "hidromassatge":false, "jacuzzi":false,"salsBany":false},
+                        "llits":{"individuals":3,"dobles":0, "Lliteres":1,"sofaLlits":0},                                                                
+                        "exteriors":{"balco":false,"terrassa":false,"vistesMuntanya":false,"vistesMar":false},
+                        "habitacioServeis":{ "tv":true, "wifi":true,"caixaForta":false, "vestidor":false},
+                         "preus": [{
+                                        "id":1,
+                                        "tempAlta":true,
+                                        "idAgregador": 1,
+                                        "preuNet": 10,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 18.15
+                                },
+                                {
+                                        "id":2,
+                                        "tempAlta":true,
+                                        "idAgregador": 2,
+                                        "preuNet": 15,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 24.20
+                                },
+                                {
+                                        "id":3,
+                                        "tempAlta":true,
+                                        "idAgregador": 3,
+                                        "preuNet": 20,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 30.25
+                                },
+                                {
+                                        "id":4,
+                                        "tempAlta":false,
+                                        "idAgregador": 1,
+                                        "preuNet": 8,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 15.73
+                                },
+                                {
+                                        "id":5,
+                                        "tempAlta":false,
+                                        "idAgregador": 2,
+                                        "preuNet": 13,
+                                        "comissioWeb":5,
+                                        "impostosPercPerc": 21,
+                                        "preuTotal": 21.78
+                                },
+                                {
+                                        "id":6,
+                                        "tempAlta":false,
+                                        "idAgregador": 3,
+                                        "preuNet": 18,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 27.83
+                                }]   
+                    }] 
+       },
+       {
+       "id":1,
+       "nom":"Hotel Solimar",
+       "estrelles":"3",
+       "habitacio":"70",
+       "adresa":"C/ Fornicadors, 69",
+       "telefon":"971696969",
+       "correu":"forn_i_cadors@forn.cat",
+       "empleats":"45",
+       "cadena":"Iberostar",
+       "serveis":["aiguaCalentaHotel","calefaccioHotel"],
+       "extres":{"tenis":true,"gimnas":false,"piscina":true,"spa":false},
+       "berenar":{"actiu":true,"preu":"12","valor":"dolar"},
+       "dinar":{"actiu":false,"preu":"0","valor":"eur"},
+        "sopar":{"actiu":true,"preu":"20","valor":"eur"},
+        "idioma":{"castella":true,"angles":false,"aleman":true,"rus":false},
+       "fumador":"si",
+       "reciclatge":"si",
+       "guarderia":"no",
+       "habitacions":[{
+                        "id":0,
+                        "tipo": "categoriaAlta",
+                        "miniBar":{"actiu":true, "preu":300, "valor":"eur"},
+                        "bany":{"dutxa":true, "wc":true, "banyera":true, "secador":true, "amenities":true, "hidromassatge":false, "jacuzzi":true, "salsBany":true}, 
+                        "llits":{"individuals": 3, "dobles":1, "lliteres":0, "sofaLlits":1},
+                        "exteriors":{"balco":false,"terrassa":true, "vistesMuntanya":false, "vistesMar":true},
+                        "habitacioServeis":{"tv": true,"wifi": true,"caixaForta":true,"vestidor":true},
+                        "preus": [{
+                                        "id":1,
+                                        "tempAlta":true,
+                                        "idAgregador": 1,
+                                        "preuNet": 200,
+                                        "comissioWeb":5,
+                                        "ImpostosPerc": 21,
+                                        "preuTotal": 248.05
+                                },
+                                {
+                                        "id":2,
+                                        "tempAlta":true,
+                                        "idAgregador": 2,
+                                        "preuNet": 205,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 254.10
+                                },
+                                {
+                                        "id":3,
+                                        "tempAlta":true,
+                                        "idAgregador": 3,
+                                        "preuNet": 210,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 260.15
+                                },
+                                {
+                                        "id":4,
+                                        "tempAlta":false,
+                                        "idAgregador": 1,
+                                        "preuNet": 180,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 223.85
+                                        
+                                },
+                                {
+                                        "id":5,
+                                        "tempAlta":false,
+                                        "idAgregador": 2,
+                                        "preuNet": 190,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 235.95
+                                },
+                                {
+                                        "id":6,
+                                        "tempAlta":false,
+                                        "idAgregador": 3,
+                                        "preuNet": 200,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 235.95
+                                }]
+                },
+                {
+                        "id":1,
+                        "tipo": "categoriaMitjana",
+                        "miniBar":{"actiu":true, "preu":200, "valor":"eur"},
+                        "bany":{"dutxa":true, "wc":true, "banyera":true, "secador":true, "amenities":false, "hidromassatge":false, "jacuzzi":false, "salsBany":false}, 
+                        "llits":{"individuals": 1, "dobles":2, "lliteres":1, "sofaLlits":0},
+                        "exteriors":{"balco":true,"terrassa":false, "vistesMuntanya":true, "vistesMar":false},
+                        "habitacioServeis":{"tv": true,"wifi": true,"caixaForta":true,"vestidor":false},
+                        "preus": [{
+                                        "id":1,
+                                        "tempAlta":true,
+                                        "idAgregador": 1,
+                                        "preuNet": 140,
+                                        "comissioWeb":5,
+                                        "ImpostosPerc": 21,
+                                        "preuTotal": 175.45
+                                },
+                                {
+                                        "id":2,
+                                        "tempAlta":true,
+                                        "idAgregador": 2,
+                                        "preuNet": 142,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 177.87
+                                },
+                                {
+                                        "id":3,
+                                        "tempAlta":true,
+                                        "idAgregador": 3,
+                                        "preuNet": 160,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 199.65
+                                },
+                                {
+                                        "id":4,
+                                        "tempAlta":false,
+                                        "idAgregador": 1,
+                                        "preuNet": 120,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 151.20
+                                        
+                                },
+                                {
+                                        "id":5,
+                                        "tempAlta":false,
+                                        "idAgregador": 2,
+                                        "preuNet": 125,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 157.30
+                                },
+                                {
+                                        "id":6,
+                                        "tempAlta":false,
+                                        "idAgregador": 3,
+                                        "preuNet": 130,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 163.35
+                                }]
+                },
+                {
+                        "id":2,
+                        "tipo": "categoriaBaixa",
+                        "miniBar":{"actiu":true, "preu":250, "valor":"eur"},
+                        "bany":{"dutxa":true, "wc":true, "banyera":true, "secador":false, "amenities":false, "hidromassatge":false, "jacuzzi":false, "salsBany":false}, 
+                        "llits":{"individuals": 1, "dobles":0, "lliteres":1, "sofaLlits":1},
+                        "exteriors":{"balco":true,"terrassa":false, "vistesMuntanya":true, "vistesMar":false},
+                        "habitacioServeis":{"tv": true,"wifi": true,"caixaForta":true,"vestidor":false},
+                        "preus": [{
+                                "id":1,
+                                "tempAlta":true,
+                                "idAgregador": 1,
+                                "preuNet": 20,
+                                "comissioWeb":5,
+                                "ImpostosPerc": 21,
+                                "preuTotal": 30.25
+                                },
+                                {
+                                "id":2,
+                                "tempAlta":true,
+                                "idAgregador": 2,
+                                "preuNet": 25,
+                                "comissioWeb":5,
+                                "impostosPerc": 21,
+                                "preuTotal": 36.30
+                                },
+                                {
+									"id":3,
+									"tempAlta":true,
+									"idAgregador": 3,
+									"preuNet": 30,
+									"comissioWeb":5,
+									"impostosPerc": 21,
+									"preuTotal": 42.35
+                                },
+                                {
+									"id":4,
+									"tempAlta":false,
+									"idAgregador": 1,
+									"preuNet": 8,
+									"comissioWeb":5,
+									"impostosPerc": 21,
+									"preuTotal": 15.73
+                                        
+                                },
+                                {
+									"id":5,
+									"tempAlta":false,
+									"idAgregador": 2,
+									"preuNet": 13,
+									"comissioWeb":5,
+									"impostosPerc": 21,
+									"preuTotal": 21.78
+                                },
+                                {
+									"id":6,
+									"tempAlta":false,
+									"idAgregador": 3,
+									"preuNet": 18,
+									"comissioWeb":5,
+									"impostosPerc": 21,
+									"preuTotal": 27.83
+                                }]
+                }]
+       },
+       {
+       "id":2,
+       "nom":"Hola Royal Bitch",
+       "estrelles":"4",
+       "habitacio":"40",
+       "adresa":"C/ BitchesAll",
+       "telefon":"971454545",
+       "correu":"rbittch@bitch.es",
+       "empleats":"25",
+       "cadena":"RIU",
+       "serveis":["climatitzacio","aiguaCalentaHotel","calefaccioHotel"],
+       "extres":{"gimnas":true,"piscina":true,"spa":true,"tenis":false},
+       "berenar":{"actiu":true,"preu":"15","valor":"eur"},
+       "dinar":{"actiu":true,"preu":"18","valor":"eur"},
+        "sopar":{"actiu":true,"preu":"25","valor":"eur"},
+        "idioma":{"castella":false,"angles":true,"aleman":true,"rus":true},
+       "fumador":"si",
+       "reciclatge":"si",
+       "guarderia":"si",
+       "habitacions":[{
+                        "id":0,
+                        "tipo": "categoriaAlta",
+                        "minibar":{"actiu":false,"preu":"150","valor":"eur"},
+                        "bany":{"dutxa":true,"wc":true, "banyera":false,"secador":true,"amenities":false,"hidromassatge":true, "jacuzzi":true,"salsBany":true},
+                        "llits":{"individuals":0,"dobles":2, "Lliteres":0,"sofaLlits":0},                                                                
+                        "exteriors":{"balco":true,"terrassa":true,"vistesMuntanya":false,"vistesMar":true},
+                        "habitacioServeis":{ "tv":true, "wifi":true,"caixaForta":false, "vestidor":true},                                                                        
+                        "preus": [{
+                                        "id":1,
+                                        "tempAlta":true,
+                                        "idAgregador": 1,
+                                        "preuNet": 122,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 153.67
+                                },
+                                {
+                                        "id":2,
+                                        "tempAlta":true,
+                                        "idAgregador": 2,
+                                        "preuNet": 127,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 159.72                                
+                                },
+                                {
+                                        "id":3,
+                                        "tempAlta":true,
+                                        "idAgregador": 3,
+                                        "preuNet": 132,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 165.77
+                                },
+                                {
+                                        "id":4,
+                                        "tempAlta":false,
+                                        "idAgregador": 1,
+                                        "preuNet": 112,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 141.57
+                                },
+                                {
+                                        "id":5,
+                                        "tempAlta":false,
+                                        "idAgregador": 2,
+                                        "preuNet": 117,
+                                        "comissioWeb":5,
+                                        "impostosPercPerc": 21,
+                                        "preuTotal": 148.83
+                                },
+                                {
+                                        "id":6,
+                                        "tempAlta":false,
+                                        "idAgregador": 3,
+                                        "preuNet": 122,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 153.67
+                                }]
+
+                },
+                {
+                        "id":1,
+                        "tipo": "categoriaMitjana",
+                        "minibar":{"actiu":true,"preu":"90","valor":"eur"},
+                        "bany":{"dutxa":true,"wc":true, "banyera":true,"secador":true,"amenities":true, "hidromassatge":true, "jacuzzi":false,"salsBany":true},
+                        "llits":{"individuals":1,"dobles":1, "Lliteres":0,"sofaLlits":1},                                                                
+                        "exteriors":{"balco":false,"terrassa":true,"vistesMuntanya":false,"vistesMar":true},
+                        "habitacioServeis":{ "tv":true, "wifi":true,"caixaForta":false,"vestidor":true},
+                        "preus": [{
+                                        "id":1,
+                                        "tempAlta":true,
+                                        "idAgregador": 1,
+                                        "preuNet": 85,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 108.90
+                                },
+                                {
+                                        "id":2,
+                                        "tempAlta":true,
+                                        "idAgregador": 2,
+                                        "preuNet": 87,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 115.42
+                                },
+                                {
+                                        "id":3,
+                                        "tempAlta":true,
+                                        "idAgregador": 3,
+                                        "preuNet": 89,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 113.74
+                                },
+                                {
+                                        "id":4,
+                                        "tempAlta":false,
+                                        "idAgregador": 1,
+                                        "preuNet": 75,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 96.80
+                                },
+                                {
+                                        "id":5,
+                                        "tempAlta":false,
+                                        "idAgregador": 2,
+                                        "preuNet": 77,
+                                        "comissioWeb":5,
+                                        "impostosPercPerc": 21,
+                                        "preuTotal": 99.22
+                                },
+                                {
+                                        "id":6,
+                                        "tempAlta":false,
+                                        "idAgregador": 3,
+                                        "preuNet": 81,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 104.06
+                                }]
+                },
+                {
+                        "id":2,
+                        "tipo": "categoriaBaixa",
+                        "minibar":{"actiu":true,"preu":"50","valor":"eur"},
+                        "bany":{"dutxa":true,"wc":true, "banyera":true,"secador":true,"amenities":false, "hidromassatge":false, "jacuzzi":false,"salsBany":false},
+                        "llits":{"individuals":1,"dobles":0, "Lliteres":1,"sofaLlits":0},                                                                
+                        "exteriors":{"balco":false,"terrassa":false,"vistesMuntanya":false,"vistesMar":false},
+                        "habitacioServeis":{ "tv":true, "wifi":true,"caixaForta":false, "vestidor":false},
+                        "preus": [{
+                                        "id":1,
+                                        "tempAlta":true,
+                                        "idAgregador": 1,
+                                        "preuNet": 13,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 21.78
+                                },
+                                {
+                                        "id":2,
+                                        "tempAlta":true,
+                                        "idAgregador": 2,
+                                        "preuNet": 18,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 27.83
+                                },
+                                {
+                                        "id":3,
+                                        "tempAlta":true,
+                                        "idAgregador": 3,
+                                        "preuNet": 21,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 31.46
+                                },
+                                {
+                                        "id":4,
+                                        "tempAlta":false,
+                                        "idAgregador": 1,
+                                        "preuNet": 11,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal": 19.36
+                                },
+                                {
+                                        "id":5,
+                                        "tempAlta":false,
+                                        "idAgregador": 2,
+                                        "preuNet": 16,
+                                        "comissioWeb":5,
+                                        "impostosPercPerc": 21,
+                                        "preuTotal": 25.41
+                                },
+                                {
+                                        "id":6,
+                                        "tempAlta":false,
+                                        "idAgregador": 3,
+                                        "preuNet": 19,
+                                        "comissioWeb":5,
+                                        "impostosPerc": 21,
+                                        "preuTotal":29.04
+                                }]
+
+                }] 
+        }]
+}
